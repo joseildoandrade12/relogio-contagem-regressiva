@@ -62,6 +62,7 @@ body{
     }
     .falta-dias{
         padding: 10px;
+        margin: 0 20px;
     }
     .secao-relogio .horario{
         max-width: 70px;
