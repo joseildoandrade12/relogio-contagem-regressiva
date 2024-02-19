@@ -57,14 +57,14 @@ body{
 
 @media (max-width:500px) {
     .secao-relogio{
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 5px;
     }
     .falta-dias{
         padding: 10px;
     }
     .secao-relogio .horario{
-        max-width: 80px;
-        max-height: 85px;
+        max-width: 70px;
+        max-height: 75px;
     }
 }
