@@ -1,71 +1,81 @@
 /* #151515 */
 /* #034078 */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color:#034078;
-    font-family: 'Press Start 2P', system-ui;;
+body {
+  background-color: #034078;
+  font-family: "Press Start 2P", system-ui;
 }
-.container{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 }
-.container-relogio{
-    border-radius: 10px;
-    background-color: #151515;
-    max-width: 700px;
-    height: 500px;
-    box-shadow: 3px 3px 30px 10px rgba(0, 0, 0, 0.243);
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+.container-relogio {
+  border-radius: 10px;
+  background-color: #151515;
+  max-width: 700px;
+  height: 500px;
+  box-shadow: 3px 3px 30px 10px rgba(0, 0, 0, 0.243);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
-.secao-relogio{
-    font-size: 3rem;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    padding: 10px;
+.secao-relogio {
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 10px;
 }
-.falta-dias{
-    display: block;
-    background-color:#034078;
-    padding: 20px;
-    margin: 0 50px;
-    border-radius: 8px;
+.falta-dias {
+  display: block;
+  background-color: #034078;
+  padding: 20px;
+  margin: 0 50px;
+  border-radius: 8px;
 }
 .secao-relogio .horario {
-    border-radius: 8px;
-    width: 120px;
-    height: 125px;
-    background-color:#034078;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border-radius: 8px;
+  width: 120px;
+  height: 125px;
+  background-color: #034078;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@media (max-width:500px) {
-    .secao-relogio{
-        font-size: 2rem;
-        padding: 5px;
-    }
-    .falta-dias{
-        padding: 10px;
-        margin: 0 20px;
-    }
-    .secao-relogio .horario{
-        max-width: 70px;
-        max-height: 75px;
-    }
+.tempo-relogio {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+.tempo {
+  font-size: 1.25rem;
+}
+@media (max-width: 500px) {
+  .secao-relogio {
+    font-size: 2rem;
+    padding: 5px;
+  }
+  .falta-dias {
+    padding: 10px;
+    margin: 0 10px;
+  }
+  .secao-relogio .horario {
+    max-width: 70px;
+    max-height: 75px;
+  }
+  .tempo {
+    font-size: 0.8rem;
+  }
 }
