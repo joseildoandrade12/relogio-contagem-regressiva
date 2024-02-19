@@ -30,7 +30,7 @@ body{
     flex-direction: column;
 }
 .secao-relogio{
-    font-size: 3.2rem;
+    font-size: 3rem;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -53,4 +53,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width:500px) {
+    .secao-relogio{
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+    .falta-dias{
+        padding: 10px;
+    }
+    .secao-relogio .horario{
+        max-width: 80px;
+        max-height: 85px;
+    }
 }
